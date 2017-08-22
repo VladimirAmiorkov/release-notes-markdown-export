@@ -5,5 +5,4 @@ This extension simply export the currently visible titles of a github issues' pa
 How to use the extension: 
 1. Go to 'https://github.com/telerik/nativescript-ui/issues' filter for specific milestone or any criteria
 2. Press the extension icon in the task bar
-3. Change the 'Save directory' to a valid one of your environment
-4. Press 'Export'",
+3. Press 'Export'",

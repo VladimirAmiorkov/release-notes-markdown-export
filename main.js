@@ -63,7 +63,7 @@ function exportReleaseNotes() {
 
     sendMessageToExtensionPopup("Done");
     
-    console.save(data, [saveDir])
+    console.save(data, ["UI-for-N-issues.txt"])
 }
 
 function sendMessageToExtensionPopup(message) {
