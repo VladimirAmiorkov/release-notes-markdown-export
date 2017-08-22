@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
-    "name": "Github repo release notes export",
-    "description": "This extension shows a Google Image search result for the current page",
+    "name": "Release notes export",
+    "description": "This extension simply export the currently visible titles of a github issues' page fro ma predefined github repository.",
     "version": "0.1",
     "background": {
         "scripts": [
@@ -9,18 +9,23 @@
         ],
         "persistent": false
     },
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
     "browser_action": {
-        "default_icon": "icon.png",
+        "default_icon": "icon16.png",
         "default_popup": "index.html",
         "default_title": "Export current git page"
     },
+    "incognito": "not_allowed",
     "permissions": [
         "activeTab",
         "tabs",
         "storage"
     ]
 }
-
 // "content_scripts": [
 //         {
 //             "matches": [
