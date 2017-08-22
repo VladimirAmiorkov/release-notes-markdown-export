@@ -1,0 +1,20 @@
+.labelCentered {
+    display: block;
+    text-align: center;
+}
+
+.label {
+    margin: 10px;
+}
+
+.labelTop {
+    margin-top: 0px;
+}
+
+.button {
+    margin: 10px;
+}
+
+.labelGreen {
+    color: green;
+}

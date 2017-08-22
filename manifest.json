@@ -1,0 +1,37 @@
+{
+    "manifest_version": 2,
+    "name": "Github repo release notes export",
+    "description": "This extension shows a Google Image search result for the current page",
+    "version": "0.1",
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    },
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "index.html",
+        "default_title": "Export current git page"
+    },
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "storage"
+    ]
+}
+
+// "content_scripts": [
+//         {
+//             "matches": [
+//                 "https://github.com/telerik/nativescript-ui/*"
+//             ],
+//             "css": [
+//                 "mystyles.css"
+//             ],
+//             "js": [
+//                 "main.js"
+//             ],
+//             "run_at": "document_end"
+//         }
+//     ],
