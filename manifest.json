@@ -26,17 +26,3 @@
         "storage"
     ]
 }
-// "content_scripts": [
-//         {
-//             "matches": [
-//                 "https://github.com/telerik/nativescript-ui/*"
-//             ],
-//             "css": [
-//                 "mystyles.css"
-//             ],
-//             "js": [
-//                 "main.js"
-//             ],
-//             "run_at": "document_end"
-//         }
-//     ],

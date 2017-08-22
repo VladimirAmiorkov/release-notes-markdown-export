@@ -48,7 +48,6 @@ function exportReleaseNotes() {
     var issues = document.getElementsByClassName(elementCssClass);
     var data = "";
 
-    // chrome.runtime.sendMessage({ status: "Exporting" });
     sendMessageToExtensionPopup("Exporting");
 
     for (var i = 0; i < issues.length; i++) {
@@ -62,7 +61,6 @@ function exportReleaseNotes() {
         }
     }
 
-    // chrome.runtime.sendMessage({ status: "Done" });
     sendMessageToExtensionPopup("Done");
     
     console.save(data, [saveDir])
