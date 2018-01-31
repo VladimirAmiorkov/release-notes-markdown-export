@@ -9,7 +9,7 @@ Useful for scenarios where your code is in a private repo and you also have a pu
 ## How it works
 This extension simply export the currently visible titles the issues on the page from a predefined github repository. It is also possible to match the exact copy of the issue (by title) to a second "public" reposotiry and add it as a link to the "release notes" for that issue.
 
-How to use the extension: 
+## How to use the extension
 1. Go to the Pro UI repository and filter for specific milestone or any criteria
 2. Press the extension icon in the task bar
 3. Press 'Export'",
